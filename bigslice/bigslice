@@ -332,6 +332,7 @@ def process_input_folder(folder_path: str, database: Database,
         "^BGC[0-9]{7}$",  # MIBiG
         "^.+\\.cluster[0-9]+$",  # antiSMASH4 clustergbks
         "^.+\\.region[0-9]+$",  # antiSMASH5 clustergbks
+        "^.+\\.region[0-9]+.+$",  # custom names from benchmark
     ]]
 
     # process datasets
